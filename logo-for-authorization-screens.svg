@@ -1,0 +1,21 @@
+<svg viewBox="0 0 120 120" width="120" height="120">
+<circle cx="60" cy="60" r="10" stroke="red" fill="transparent"/>
+<circle cx="60" cy="60" r="20" stroke="rgba(255, 0, 0, 0.5)" fill="transparent"/>
+<circle cx="60" cy="60" r="30" stroke="rgba(255, 0, 0, 0.2)" fill="transparent"/>
+<defs><line id="wave" x1="30" y1="30" x2="35" y2="35"/>
+<symbol id="waves"><use href="#wave"/>
+<use href="#wave" transform="rotate(30, 60, 60)"/>
+<use href="#wave" transform="rotate(60, 60, 60)"/>
+<use href="#wave" transform="rotate(90, 60, 60)"/>
+<use href="#wave" transform="rotate(120, 60, 60)"/>
+<use href="#wave" transform="rotate(150, 60, 60)"/>
+<use href="#wave" transform="rotate(180, 60, 60)"/>
+<use href="#wave" transform="rotate(210, 60, 60)"/>
+<use href="#wave" transform="rotate(240, 60, 60)"/>
+<use href="#wave" transform="rotate(270, 60, 60)"/>
+<use href="#wave" transform="rotate(300, 60, 60)"/>
+<use href="#wave" transform="rotate(330, 60, 60)"/>
+</symbol></defs>
+<use href="#waves" stroke="rgba(255, 0, 0, 0.2)"/>
+<use href="#waves" transform="rotate(10, 60, 60) scale(1.20) translate(-9, -10)" stroke="rgba(255, 0, 255, 0.2)"/>
+</svg>
